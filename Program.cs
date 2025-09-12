@@ -95,6 +95,24 @@ namespace mi_proyecto
             
             Console.ReadKey();
 
+            //Quinto ejercicio
+            
+            Double salarioHora;
+            Double horasTrabajadas;
+            Double salarioMensual;
+            
+            Console.WriteLine("Ingrese el valor de su hora de trabajo");
+            salarioHora = Convert.ToDouble(Console.ReadLine());
+            Console.Beep(900, 500);
+            Console.WriteLine("Ingrese la cantidad de horas trabajadas en el mes");
+            horasTrabajadas = Convert.ToDouble(Console.ReadLine());
+            Console.Beep(900, 500);
+            salarioMensual = (salarioHora * horasTrabajadas);
+            Console.WriteLine($"Su salario mensual es de {salarioMensual}.");
+            
+            Console.ReadKey();
+
+
 
 
 
