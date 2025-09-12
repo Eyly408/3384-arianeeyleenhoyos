@@ -45,10 +45,23 @@ namespace mi_proyecto
 
             Console.ReadKey();
 
-            
-            
 
+            //Segundo ejercicio
+            Double precio;
+            Double descuento;
+            Double totalPagar;
+           
+            Console.WriteLine("Ingrese el precio del producto");
+            precio = Convert.ToDouble(Console.ReadLine());
+            Console.Beep(900, 500);
+            descuento = (precio * 0.15);
+            totalPagar = (precio - descuento);
+            Console.WriteLine($"El total a pagar con el descuento del 15% es {totalPagar}.");
             
+            Console.ReadKey();
+
+
+
 
         }
     }
