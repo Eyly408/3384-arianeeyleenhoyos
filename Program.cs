@@ -183,6 +183,19 @@ namespace mi_proyecto
             
             Console.ReadKey();
 
+            //Onceavo ejercicio
+            Double deposito;    
+            Double interes;
+            Double totalConInteres;
+            
+            Console.WriteLine("Ingrese la cantidad de dinero a depositar");
+            deposito = Convert.ToDouble(Console.ReadLine());
+            interes = (deposito * 0.04);
+            totalConInteres = (deposito + interes);
+            Console.WriteLine($"El total con el interés del 4% es {totalConInteres}");
+            
+            Console.ReadKey();
+
 
 
 
