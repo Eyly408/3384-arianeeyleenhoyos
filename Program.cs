@@ -196,6 +196,21 @@ namespace mi_proyecto
             
             Console.ReadKey();
 
+            //Doceavo ejercicio
+           
+            Double precioProducto12;
+            Double descuento12;
+            Double totalPagar12;
+            
+            Console.WriteLine("Ingrese el precio del producto");
+            precioProducto12 = Convert.ToDouble(Console.ReadLine());
+            descuento12 = (precioProducto12 * 0.10);
+            totalPagar12 = (precioProducto12 - descuento12);
+            Console.WriteLine($"El total a pagar con el descuento del 10% es {totalPagar12}");
+            
+            Console.ReadKey();
+
+
 
 
 
