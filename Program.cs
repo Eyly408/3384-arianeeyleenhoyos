@@ -139,6 +139,21 @@ namespace mi_proyecto
             
             Console.ReadKey();
 
+            //Octavo ejercicio
+            Double radio;   
+            Double areaCirculo;
+            Double perimetro;
+            Double pi = 3.1416;
+            
+            Console.WriteLine("Ingrese el radio del circulo");
+            radio = Convert.ToDouble(Console.ReadLine());
+            areaCirculo = (pi * (radio * radio));
+            perimetro = (2 * pi * radio);
+            Console.WriteLine($"El área del circulo es {areaCirculo}");
+            Console.WriteLine($"El perímetro del circulo es {perimetro}");
+            
+            Console.ReadKey();
+
 
 
 
