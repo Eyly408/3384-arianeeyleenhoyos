@@ -127,7 +127,18 @@ namespace mi_proyecto
 
             Console.ReadKey();
 
+            //Séptimo ejercicio
             
+            Double celsius;
+            Double fahrenheit;
+            
+            Console.WriteLine("Ingrese la temperatura en grados Celsius");
+            celsius = Convert.ToDouble(Console.ReadLine());
+            fahrenheit = (celsius * 9 / 5) + 32;
+            Console.WriteLine($"La temperatura en grados Fahrenheit es {fahrenheit}");
+            
+            Console.ReadKey();
+
 
 
 
