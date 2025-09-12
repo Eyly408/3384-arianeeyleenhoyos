@@ -17,6 +17,10 @@ namespace mi_proyecto
 
             Console.WriteLine("Bienvenidos");
 
+            Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Primer ejercicio");
+            Console.ResetColor();
+
             //Primer ejercicio
             Double sis;
             Double adm;
@@ -45,6 +49,9 @@ namespace mi_proyecto
 
             Console.ReadKey();
 
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.WriteLine("Segundo ejercicio");
+            Console.ResetColor();
 
             //Segundo ejercicio
             Double precio;
@@ -59,6 +66,10 @@ namespace mi_proyecto
             Console.WriteLine($"El total a pagar con el descuento del 15% es {totalPagar}.");
             
             Console.ReadKey();
+
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Tercer ejercicio");
+            Console.ResetColor();
 
             //Tercer ejercicio
             Double precio1;
@@ -80,7 +91,10 @@ namespace mi_proyecto
             
             Console.ReadKey();
 
-            
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.WriteLine("Cuarto ejercicio");
+            Console.ResetColor();
+
             //Cuarto ejercicio
             Double precioProducto;
             Double impuesto;
@@ -95,8 +109,12 @@ namespace mi_proyecto
             
             Console.ReadKey();
 
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine("Quinto ejercicio");
+            Console.ResetColor();
+
             //Quinto ejercicio
-            
+
             Double salarioHora;
             Double horasTrabajadas;
             Double salarioMensual;
@@ -112,8 +130,12 @@ namespace mi_proyecto
             
             Console.ReadKey();
 
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Sexto ejercicio");
+            Console.ResetColor();
+
             //Sexto ejercicio
-            
+
             Double area;
             Double basetriangulo;
             Double altura;
@@ -127,8 +149,12 @@ namespace mi_proyecto
 
             Console.ReadKey();
 
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("Séptimo ejercicio");
+            Console.ResetColor();
+
             //Séptimo ejercicio
-            
+
             Double celsius;
             Double fahrenheit;
             
@@ -138,6 +164,10 @@ namespace mi_proyecto
             Console.WriteLine($"La temperatura en grados Fahrenheit es {fahrenheit}");
             
             Console.ReadKey();
+
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine("Octavo ejercicio");
+            Console.ResetColor();
 
             //Octavo ejercicio
             Double radio;   
@@ -154,8 +184,12 @@ namespace mi_proyecto
             
             Console.ReadKey();
 
-            //Noveno ejercicio
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.WriteLine("Noveno ejercicio");
+            Console.ResetColor();
             
+            //Noveno ejercicio
+
             Double numero1;
             Double numero2;
             Double suma;
@@ -168,6 +202,10 @@ namespace mi_proyecto
             Console.WriteLine($"La suma de los dos números es {suma}");
             
             Console.ReadKey();
+
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("Décimo ejercicio");
+            Console.ResetColor();
 
             //Décimo ejercicio
             Double baseRectangulo;
@@ -183,6 +221,10 @@ namespace mi_proyecto
             
             Console.ReadKey();
 
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("Onceavo ejercicio");
+            Console.ResetColor();
+
             //Onceavo ejercicio
             Double deposito;    
             Double interes;
@@ -196,8 +238,12 @@ namespace mi_proyecto
             
             Console.ReadKey();
 
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.WriteLine("Doceavo ejercicio");
+            Console.ResetColor();
+
             //Doceavo ejercicio
-           
+
             Double precioProducto12;
             Double descuento12;
             Double totalPagar12;
@@ -209,6 +255,8 @@ namespace mi_proyecto
             Console.WriteLine($"El total a pagar con el descuento del 10% es {totalPagar12}");
             
             Console.ReadKey();
+
+            
 
 
 

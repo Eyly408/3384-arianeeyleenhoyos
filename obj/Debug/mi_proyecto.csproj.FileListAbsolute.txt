@@ -1,0 +1,7 @@
+C:\Users\Eyleen\Desktop\my_project\bin\Debug\mi_proyecto.exe.config
+C:\Users\Eyleen\Desktop\my_project\bin\Debug\mi_proyecto.exe
+C:\Users\Eyleen\Desktop\my_project\bin\Debug\mi_proyecto.pdb
+C:\Users\Eyleen\Desktop\my_project\obj\Debug\mi_proyecto.csproj.AssemblyReference.cache
+C:\Users\Eyleen\Desktop\my_project\obj\Debug\mi_proyecto.csproj.CoreCompileInputs.cache
+C:\Users\Eyleen\Desktop\my_project\obj\Debug\mi_proyecto.exe
+C:\Users\Eyleen\Desktop\my_project\obj\Debug\mi_proyecto.pdb
