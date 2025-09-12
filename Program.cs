@@ -80,6 +80,21 @@ namespace mi_proyecto
             
             Console.ReadKey();
 
+            
+            //Cuarto ejercicio
+            Double precioProducto;
+            Double impuesto;
+            Double precioFinalProducto;
+            
+            Console.WriteLine("Ingrese el precio del producto");
+            precioProducto = Convert.ToDouble(Console.ReadLine());
+            Console.Beep(900, 500);
+            impuesto = (precioProducto * 0.19);
+            precioFinalProducto = (precioProducto + impuesto);
+            Console.WriteLine($"El precio final del producto con el impuesto del 19% es {precioFinalProducto}.");
+            
+            Console.ReadKey();
+
 
 
 
