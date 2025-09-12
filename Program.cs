@@ -169,6 +169,20 @@ namespace mi_proyecto
             
             Console.ReadKey();
 
+            //Décimo ejercicio
+            Double baseRectangulo;
+            Double alturaRectangulo;
+            Double areaRectangulo;
+
+            Console.WriteLine("Ingrese la base del rectángulo");
+            baseRectangulo = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Ingrese la altura del rectángulo");
+            alturaRectangulo = Convert.ToDouble(Console.ReadLine());
+            areaRectangulo = (baseRectangulo * alturaRectangulo);
+            Console.WriteLine($"El área del rectángulo es {areaRectangulo}");
+            
+            Console.ReadKey();
+
 
 
 
