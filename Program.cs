@@ -60,6 +60,27 @@ namespace mi_proyecto
             
             Console.ReadKey();
 
+            //Tercer ejercicio
+            Double precio1;
+            Double precio2;
+            Double precio3;
+            Double precioFinal;
+            
+            Console.WriteLine("Ingrese el precio del primer producto");
+            precio1 = Convert.ToDouble(Console.ReadLine());
+            Console.Beep(900, 500);
+            Console.WriteLine("Ingrese el precio del segundo producto");
+            precio2 = Convert.ToDouble(Console.ReadLine());
+            Console.Beep(900, 500);
+            Console.WriteLine("Ingrese el precio del tercer producto");
+            precio3 = Convert.ToDouble(Console.ReadLine());
+            Console.Beep(900, 500);
+            precioFinal = (precio1 + precio2 + precio3);
+            Console.WriteLine($"El precio final de los tres productos es {precioFinal}.");
+            
+            Console.ReadKey();
+
+
 
 
 
