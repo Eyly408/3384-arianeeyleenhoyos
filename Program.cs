@@ -112,6 +112,23 @@ namespace mi_proyecto
             
             Console.ReadKey();
 
+            //Sexto ejercicio
+            
+            Double area;
+            Double basetriangulo;
+            Double altura;
+
+            Console.WriteLine("Ingresa la base del triagunlo");
+            basetriangulo = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Ingresa la altura del triangulo");
+            altura = Convert.ToDouble(Console.ReadLine());
+            area = (basetriangulo * altura) / 2;
+            Console.WriteLine($"El área del triangulo es {area}");
+
+            Console.ReadKey();
+
+            
+
 
 
 
