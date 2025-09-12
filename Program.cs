@@ -154,6 +154,22 @@ namespace mi_proyecto
             
             Console.ReadKey();
 
+            //Noveno ejercicio
+            
+            Double numero1;
+            Double numero2;
+            Double suma;
+           
+            Console.WriteLine("Ingrese el primer número");
+            numero1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Ingrese el segundo número");
+            numero2 = Convert.ToDouble(Console.ReadLine());
+            suma = (numero1 + numero2);
+            Console.WriteLine($"La suma de los dos números es {suma}");
+            
+            Console.ReadKey();
+
+
 
 
 
