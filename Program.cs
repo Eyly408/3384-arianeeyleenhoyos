@@ -272,11 +272,35 @@ namespace mi_proyecto
             d = Convert.ToDouble(Console.ReadLine());
             R = (D * d) / 2;
             Console.WriteLine($"El área del rombo es {R}");
+            
             Console.ReadKey();
 
-            
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine("Problema 14");
+            Console.ResetColor();
 
-           
+            // problema 14
+
+            double sueldoBase;
+            double ventas;
+            double comision;
+            double sueldoTotal;
+
+            Console.WriteLine("Ingrese el sueldo base del vendedor");
+            sueldoBase = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Ingrese el total de ventas realizadas por el vendedor en el mes");
+            ventas = Convert.ToDouble(Console.ReadLine());
+            comision = (ventas * 0.10);
+            sueldoTotal = (sueldoBase + comision);
+            Console.WriteLine($"El sueldo total del vendedor es {sueldoTotal}");
+
+            Console.ReadKey();
+
+
+
+
+
+
 
 
 
