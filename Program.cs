@@ -317,6 +317,24 @@ namespace mi_proyecto
             
             Console.ReadKey();
 
+            // problema 16
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Problema 16");
+            Console.ResetColor();
+
+            double cantidadLitros;
+            double precioLitro;
+            double totalPagar16;
+            Console.WriteLine("Ingrese la cantidad de litros de gasolina vendidos");
+            cantidadLitros = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Ingrese el precio por litro de gasolina");
+            precioLitro = Convert.ToDouble(Console.ReadLine());
+            totalPagar16 = (cantidadLitros * precioLitro);
+            Console.WriteLine($"El total a pagar por la gasolina es {totalPagar16}");
+            
+            Console.ReadKey();
+
+
 
 
 
