@@ -437,6 +437,24 @@ namespace mi_proyecto
 
             Console.ReadKey();
 
+            //Problema 22
+
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.WriteLine("Problema 22");
+            Console.ResetColor();
+
+            int x5 = Convert.ToInt32(Console.ReadLine());
+            int y5 = Convert.ToInt32(Console.ReadLine());
+
+            if (x5 % 2 == 0) x5--;
+
+            while (x >= y5)
+            {
+                Console.Write(x5 + " ");
+                x5 -= 2;
+            }
+
+            Console.ReadKey();
 
 
 
