@@ -5,3 +5,4 @@ C:\Users\Eyleen\Desktop\my_project\obj\Debug\mi_proyecto.csproj.AssemblyReferenc
 C:\Users\Eyleen\Desktop\my_project\obj\Debug\mi_proyecto.csproj.CoreCompileInputs.cache
 C:\Users\Eyleen\Desktop\my_project\obj\Debug\mi_proyecto.exe
 C:\Users\Eyleen\Desktop\my_project\obj\Debug\mi_proyecto.pdb
+C:\Users\Eyleen\Desktop\my_project\obj\Debug\mi_proyecto.exe.config

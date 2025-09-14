@@ -226,9 +226,9 @@ namespace mi_proyecto
             Console.ResetColor();
 
             //Onceavo ejercicio
-            Double deposito;    
-            Double interes;
-            Double totalConInteres;
+            double deposito;    
+            double interes;
+            double totalConInteres;
             
             Console.WriteLine("Ingrese la cantidad de dinero a depositar");
             deposito = Convert.ToDouble(Console.ReadLine());
@@ -244,9 +244,9 @@ namespace mi_proyecto
 
             //Doceavo ejercicio
 
-            Double precioProducto12;
-            Double descuento12;
-            Double totalPagar12;
+            double precioProducto12;
+            double descuento12;
+            double totalPagar12;
             
             Console.WriteLine("Ingrese el precio del producto");
             precioProducto12 = Convert.ToDouble(Console.ReadLine());
@@ -256,7 +256,35 @@ namespace mi_proyecto
             
             Console.ReadKey();
 
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Problema siguiente");
+            Console.ResetColor();
+
+            // problema 13
+
+            double D;
+            double d;
+            double R;
+
+            Console.WriteLine("Ingrese el valor de la diagonal mayor del rombo");
+            D = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Ingrese el valor de la diagonal menor del rombo");
+            d = Convert.ToDouble(Console.ReadLine());
+            R = (D * d) / 2;
+            Console.WriteLine($"El área del rombo es {R}");
+            Console.ReadKey();
+
             
+
+           
+
+
+
+
+
+
+
+
 
 
 
