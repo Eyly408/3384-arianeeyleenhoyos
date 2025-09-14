@@ -481,9 +481,48 @@ namespace mi_proyecto
 
             Console.ReadKey();
 
+            //Problema 24
+
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine("Problema 24");
+            Console.ResetColor();
+
+            int x56 = Convert.ToInt32(Console.ReadLine());
+
+            int abs;
+            if (x56 < 0)
+            {
+                abs = -x56;
+            }
+            else
+            {
+                abs = x56;
+            }
+
+            Console.WriteLine("El valor absoluto es {0}", abs);
+
+            Console.ReadKey();
 
 
-           
+            //Problema 25
+
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("Problema 25");
+            Console.ResetColor();
+
+            int X = Convert.ToInt32(Console.ReadLine());
+            int Y = Convert.ToInt32(Console.ReadLine());
+
+            for (int I = 0; I < Y; I++)
+            {
+                Console.Write(X);
+            }
+
+            Console.ReadKey();
+
+
+
+
 
 
 
