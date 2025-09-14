@@ -362,6 +362,24 @@ namespace mi_proyecto
 
             Console.ReadKey();
 
+            // problema 18
+
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine("Problema 18");
+            Console.ResetColor();
+
+            int n, factorial = 1;
+            Console.WriteLine("Ingrese un número entero positivo:");
+            n = Convert.ToInt32(Console.ReadLine());
+            for (i = 1; i <= n; i++)
+            {
+                factorial = factorial * i;
+            }
+            Console.WriteLine($"El factorial de {n} es {factorial}");
+            
+            
+            Console.ReadKey();
+
 
 
 
