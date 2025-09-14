@@ -296,6 +296,27 @@ namespace mi_proyecto
 
             Console.ReadKey();
 
+            // problema 15
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.WriteLine("Problema 15");
+            Console.ResetColor();
+
+            double ladoA;
+            double ladoB;
+            double ladoC;
+            double perimetroTriangulo;
+
+            Console.WriteLine("Ingrese el valor del lado A del triángulo");
+            ladoA = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Ingrese el valor del lado B del triángulo");
+            ladoB = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Ingrese el valor del lado C del triángulo");
+            ladoC = Convert.ToDouble(Console.ReadLine());
+            perimetroTriangulo = (ladoA + ladoB + ladoC);
+            Console.WriteLine($"El perímetro del triángulo es {perimetroTriangulo}");
+            
+            Console.ReadKey();
+
 
 
 
