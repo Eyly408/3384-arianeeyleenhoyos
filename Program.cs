@@ -521,36 +521,53 @@ namespace mi_proyecto
             Console.ReadKey();
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            //Problema 26
+            
+            Saludar();
+            Despedirse();
         }
+
+        public static void Saludar()
+        {
+            Console.WriteLine("Hola");
+        }
+
+        public static void Despedirse()
+        {
+            Console.WriteLine("Adiós");
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
     }
 }
