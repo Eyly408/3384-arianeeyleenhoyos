@@ -398,6 +398,27 @@ namespace mi_proyecto
             Console.ReadKey();
 
 
+            //Problema 20
+
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.WriteLine("Problema 20");
+            Console.ResetColor();
+            
+            Console.WriteLine("Ingrese dos números enteros:");
+
+
+            int x = Convert.ToInt32(Console.ReadLine());
+            int y = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("{0} + {1} = {2}", x, y, x + y);
+            Console.WriteLine("{0} - {1} = {2}", x, y, x - y);
+            Console.WriteLine("{0} x {1} = {2}", x, y, x * y);
+            Console.WriteLine("{0} / {1} = {2}", x, y, x / y);
+            Console.WriteLine("{0} mod {1} = {2}", x, y, x % y);
+
+            Console.ReadKey();
+
+
 
 
 
