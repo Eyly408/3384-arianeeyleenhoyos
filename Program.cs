@@ -456,6 +456,37 @@ namespace mi_proyecto
 
             Console.ReadKey();
 
+            //Problema 23
+
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine("Problema 23");
+            Console.ResetColor();
+
+            string x8 = Console.ReadLine();
+            x8 = x8.ToLower();
+
+            switch (x8)
+            {
+                case "a":
+                case "e":
+                case "i":
+                case "o":
+                case "u":
+                    Console.WriteLine("Vocal");
+                    break;
+                default:
+                    Console.Write("Incorrecto");
+                    break;
+            }
+
+            Console.ReadKey();
+
+
+
+           
+
+
+
 
 
 
