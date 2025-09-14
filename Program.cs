@@ -380,6 +380,23 @@ namespace mi_proyecto
             
             Console.ReadKey();
 
+            //Problema 19
+
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("Problema 19");
+            Console.ResetColor();
+
+            int numero19, suma19 = 0;
+            Console.WriteLine("Ingrese un número entero positivo:");
+            numero19 = Convert.ToInt32(Console.ReadLine());
+            for (i = 1; i <= numero19; i++)
+            {
+                suma19 = suma19 + i;
+            }
+            Console.WriteLine($"La suma de los números desde 1 hasta {numero19} es {suma19}");
+
+            Console.ReadKey();
+
 
 
 
