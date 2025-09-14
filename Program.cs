@@ -419,6 +419,24 @@ namespace mi_proyecto
             Console.ReadKey();
 
 
+            //Problema 21
+
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("Problema 21");
+            Console.ResetColor();
+
+            Console.WriteLine("Ingrese cuatro números enteros:");
+
+            int x1 = Convert.ToInt32(Console.ReadLine());
+            int x2 = Convert.ToInt32(Console.ReadLine());
+            int x3 = Convert.ToInt32(Console.ReadLine());
+            int x4 = Convert.ToInt32(Console.ReadLine());
+
+            int result = (x1 + x2 + x3 + x4) / 4;
+            Console.WriteLine(result);
+
+            Console.ReadKey();
+
 
 
 
