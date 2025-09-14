@@ -334,6 +334,38 @@ namespace mi_proyecto
             
             Console.ReadKey();
 
+            // problema 17
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Problema números primos");
+            Console.ResetColor();
+
+            int numero, i, contador = 0;
+
+            Console.WriteLine("Ingrese un número entero positivo:");
+            numero = Convert.ToInt32(Console.ReadLine());
+            for (i = 1; i <= numero; i++)
+            {
+                if (numero % i == 0)
+                {
+                    contador++;
+                }
+            }
+            if (contador == 2)
+            {
+                Console.WriteLine($"El número {numero} es primo.");
+            }
+            else
+            {
+                Console.WriteLine($"El número {numero} no es primo.");
+            }
+
+            Console.ReadKey();
+
+
+
+
+
 
 
 
