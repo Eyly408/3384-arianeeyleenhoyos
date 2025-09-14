@@ -540,6 +540,13 @@ namespace mi_proyecto
 
             Console.ReadKey();
 
+            //Problema 27
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.WriteLine("Problema 27");
+            Console.ResetColor();
+
+
+
 
 
 
