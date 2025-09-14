@@ -522,52 +522,55 @@ namespace mi_proyecto
 
 
             //Problema 26
-            
-            Saludar();
-            Despedirse();
+
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.WriteLine("Problema 26");
+            Console.ResetColor();
+
+            int x9 = Convert.ToInt32(Console.ReadLine());
+            int y9 = Convert.ToInt32(Console.ReadLine());
+
+            if (x9 % 2 == 0) x9--;
+
+            while (x9 >= y9)
+            {
+                Console.Write(x9 + " ");
+                x -= 2;
+            }
+
+            Console.ReadKey();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
-
-        public static void Saludar()
-        {
-            Console.WriteLine("Hola");
-        }
-
-        public static void Despedirse()
-        {
-            Console.WriteLine("Adiós");
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
     }
 }
