@@ -568,7 +568,14 @@ namespace mi_proyecto
 
             
             Console.ReadKey();
-        
+
+            //Fin del programa
+
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.WriteLine("Fin del programa");
+            Console.ResetColor();
+
+            Console.ReadKey();
 
 
 
@@ -601,6 +608,7 @@ namespace mi_proyecto
 
 
 
-    }
+
+        }
     }
 }
