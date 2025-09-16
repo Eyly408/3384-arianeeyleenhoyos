@@ -546,6 +546,29 @@ namespace mi_proyecto
             Console.ResetColor();
 
 
+            Console.Write("Ingresa un número entero: ");
+            string input = Console.ReadLine();
+
+            if (int.TryParse(input, out int numeroo))
+            {
+                // Verificar si el número es par o impar
+                if (numero % 2 == 0)
+                {
+                    Console.WriteLine("El número " + numero + " es par.");
+                }
+                else
+                {
+                    Console.WriteLine("El número " + numero + " es impar.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Entrada inválida. Por favor, ingresa un número entero válido.");
+            }
+
+            
+            Console.ReadKey();
+        
 
 
 
@@ -578,6 +601,6 @@ namespace mi_proyecto
 
 
 
-        }
+    }
     }
 }
