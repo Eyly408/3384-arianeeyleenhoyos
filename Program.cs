@@ -569,6 +569,26 @@ namespace mi_proyecto
             
             Console.ReadKey();
 
+            // Problema 28
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("Problema 28");
+            Console.ResetColor();
+
+
+            int pasajeros = 20;
+            pasajeros += 5;
+            pasajeros -= 2; 
+            Console.WriteLine("En el autobús hay " + pasajeros + " pasajeros.");
+
+            Console.ReadKey();
+
+            // Problema 29
+
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.WriteLine("Problema 29");
+            Console.ResetColor();
+
+            
             //Fin del programa
 
             Console.ForegroundColor = ConsoleColor.DarkRed;
